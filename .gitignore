@@ -1,0 +1,9 @@
+__pycache__/
+*.pyc
+.venv/
+temp/
+data/
+*.zip
+*.wav
+*.parquet
+*.joblib

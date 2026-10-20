@@ -1,0 +1,322 @@
+[
+  {
+    "path": "vessel/91.wav",
+    "label": "cargo",
+    "hull_id": "H065",
+    "date": "20160605",
+    "split": "train",
+    "prefix_seconds": 120,
+    "compressed_bytes_this_run": 0,
+    "fs": 32000
+  },
+  {
+    "path": "vessel/209.wav",
+    "label": "cargo",
+    "hull_id": "H112",
+    "date": "20160713",
+    "split": "train",
+    "prefix_seconds": 120,
+    "compressed_bytes_this_run": 0,
+    "fs": 32000
+  },
+  {
+    "path": "vessel/151.wav",
+    "label": "dredger",
+    "hull_id": "H010",
+    "date": "20160710",
+    "split": "train",
+    "prefix_seconds": 120,
+    "compressed_bytes_this_run": 0,
+    "fs": 32000
+  },
+  {
+    "path": "vessel/131.wav",
+    "label": "fishing",
+    "hull_id": "H161",
+    "date": "20160708",
+    "split": "train",
+    "prefix_seconds": 120,
+    "compressed_bytes_this_run": 0,
+    "fs": 32000
+  },
+  {
+    "path": "vessel/40.wav",
+    "label": "fishing",
+    "hull_id": "H018",
+    "date": "20160525",
+    "split": "train",
+    "prefix_seconds": 120,
+    "compressed_bytes_this_run": 0,
+    "fs": 32000
+  },
+  {
+    "path": "vessel/126.wav",
+    "label": "other",
+    "hull_id": "H001",
+    "date": "20160707",
+    "split": "train",
+    "prefix_seconds": 120,
+    "compressed_bytes_this_run": 0,
+    "fs": 32000
+  },
+  {
+    "path": "vessel/118.wav",
+    "label": "other",
+    "hull_id": "H035",
+    "date": "20160707",
+    "split": "train",
+    "prefix_seconds": 120,
+    "compressed_bytes_this_run": 0,
+    "fs": 32000
+  },
+  {
+    "path": "vessel/286.wav",
+    "label": "passengership",
+    "hull_id": "H167",
+    "date": "20160828",
+    "split": "train",
+    "prefix_seconds": 120,
+    "compressed_bytes_this_run": 0,
+    "fs": 32000
+  },
+  {
+    "path": "vessel/175.wav",
+    "label": "passengership",
+    "hull_id": "H111",
+    "date": "20160711",
+    "split": "train",
+    "prefix_seconds": 120,
+    "compressed_bytes_this_run": 0,
+    "fs": 32000
+  },
+  {
+    "path": "vessel/97.wav",
+    "label": "pilotvessel",
+    "hull_id": "H053",
+    "date": "20160625",
+    "split": "train",
+    "prefix_seconds": 120,
+    "compressed_bytes_this_run": 0,
+    "fs": 32000
+  },
+  {
+    "path": "vessel/22.wav",
+    "label": "pleasurecraft",
+    "hull_id": "H036",
+    "date": "20160514",
+    "split": "train",
+    "prefix_seconds": 120,
+    "compressed_bytes_this_run": 0,
+    "fs": 32000
+  },
+  {
+    "path": "vessel/324.wav",
+    "label": "pleasurecraft",
+    "hull_id": "H058",
+    "date": "20160829",
+    "split": "train",
+    "prefix_seconds": 120,
+    "compressed_bytes_this_run": 0,
+    "fs": 32000
+  },
+  {
+    "path": "vessel/162.wav",
+    "label": "rescue",
+    "hull_id": "H075",
+    "date": "20160710",
+    "split": "train",
+    "prefix_seconds": 120,
+    "compressed_bytes_this_run": 0,
+    "fs": 32000
+  },
+  {
+    "path": "vessel/115.wav",
+    "label": "sailing",
+    "hull_id": "H029",
+    "date": "20160706",
+    "split": "train",
+    "prefix_seconds": 120,
+    "compressed_bytes_this_run": 0,
+    "fs": 32000
+  },
+  {
+    "path": "vessel/114.wav",
+    "label": "sailing",
+    "hull_id": "H085",
+    "date": "20160706",
+    "split": "train",
+    "prefix_seconds": 120,
+    "compressed_bytes_this_run": 0,
+    "fs": 32000
+  },
+  {
+    "path": "vessel/301.wav",
+    "label": "tanker",
+    "hull_id": "H118",
+    "date": "20160829",
+    "split": "train",
+    "prefix_seconds": 120,
+    "compressed_bytes_this_run": 0,
+    "fs": 32000
+  },
+  {
+    "path": "vessel/9.wav",
+    "label": "tanker",
+    "hull_id": "H143",
+    "date": "20160509",
+    "split": "train",
+    "prefix_seconds": 120,
+    "compressed_bytes_this_run": 0,
+    "fs": 32000
+  },
+  {
+    "path": "vessel/280.wav",
+    "label": "tug",
+    "hull_id": "H150",
+    "date": "20160814",
+    "split": "train",
+    "prefix_seconds": 120,
+    "compressed_bytes_this_run": 0,
+    "fs": 32000
+  },
+  {
+    "path": "vessel/237.wav",
+    "label": "tug",
+    "hull_id": "H164",
+    "date": "20160724",
+    "split": "train",
+    "prefix_seconds": 120,
+    "compressed_bytes_this_run": 0,
+    "fs": 32000
+  },
+  {
+    "path": "vessel/428.wav",
+    "label": "cargo",
+    "hull_id": "H158",
+    "date": "20170128",
+    "split": "heldout",
+    "prefix_seconds": 120,
+    "compressed_bytes_this_run": 0,
+    "fs": 32000
+  },
+  {
+    "path": "vessel/481.wav",
+    "label": "fishing",
+    "hull_id": "H117",
+    "date": "20170523",
+    "split": "heldout",
+    "prefix_seconds": 120,
+    "compressed_bytes_this_run": 0,
+    "fs": 32000
+  },
+  {
+    "path": "vessel/485.wav",
+    "label": "other",
+    "hull_id": "H086",
+    "date": "20170523",
+    "split": "heldout",
+    "prefix_seconds": 120,
+    "compressed_bytes_this_run": 0,
+    "fs": 32000
+  },
+  {
+    "path": "vessel/470.wav",
+    "label": "passengership",
+    "hull_id": "H083",
+    "date": "20170523",
+    "split": "heldout",
+    "prefix_seconds": 120,
+    "compressed_bytes_this_run": 0,
+    "fs": 32000
+  },
+  {
+    "path": "vessel/443.wav",
+    "label": "pleasurecraft",
+    "hull_id": "H044",
+    "date": "20170128",
+    "split": "heldout",
+    "prefix_seconds": 120,
+    "compressed_bytes_this_run": 0,
+    "fs": 32000
+  },
+  {
+    "path": "vessel/441.wav",
+    "label": "rescue",
+    "hull_id": "H071",
+    "date": "20170128",
+    "split": "heldout",
+    "prefix_seconds": 120,
+    "compressed_bytes_this_run": 0,
+    "fs": 32000
+  },
+  {
+    "path": "vessel/510.wav",
+    "label": "sailing",
+    "hull_id": "H043",
+    "date": "20170528",
+    "split": "heldout",
+    "prefix_seconds": 120,
+    "compressed_bytes_this_run": 0,
+    "fs": 32000
+  },
+  {
+    "path": "vessel/503.wav",
+    "label": "tanker",
+    "hull_id": "H074",
+    "date": "20170528",
+    "split": "heldout",
+    "prefix_seconds": 120,
+    "compressed_bytes_this_run": 0,
+    "fs": 32000
+  },
+  {
+    "path": "vessel/434.wav",
+    "label": "tug",
+    "hull_id": "H169",
+    "date": "20170128",
+    "split": "heldout",
+    "prefix_seconds": 120,
+    "compressed_bytes_this_run": 0,
+    "fs": 32000
+  },
+  {
+    "path": "background/15.wav",
+    "label": "background",
+    "hull_id": "",
+    "date": "20170528",
+    "split": "background_control",
+    "prefix_seconds": 120,
+    "compressed_bytes_this_run": 0,
+    "fs": 32000
+  },
+  {
+    "path": "vessel/458.wav",
+    "label": "background",
+    "hull_id": "H120",
+    "date": "20170404",
+    "split": "background_control",
+    "prefix_seconds": 120,
+    "compressed_bytes_this_run": 4194304,
+    "fs": 32000
+  },
+  {
+    "path": "vessel/415.wav",
+    "label": "background",
+    "hull_id": "H068",
+    "date": "20161111",
+    "split": "background_control",
+    "prefix_seconds": 120,
+    "compressed_bytes_this_run": 4194304,
+    "fs": 32000
+  },
+  {
+    "path": "background/14.wav",
+    "label": "background",
+    "hull_id": "",
+    "date": "20170128",
+    "split": "background_control",
+    "prefix_seconds": 120,
+    "compressed_bytes_this_run": 8388608,
+    "fs": 32000
+  }
+]

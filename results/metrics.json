@@ -1,0 +1,180 @@
+{
+  "seed": 192,
+  "source_declaration": "https://zindi.world/competitions/french-embassy-underwater-vessel-noise-challenge/discussions/35443",
+  "train_windows": {
+    "member": "acoustics/02_Durban.parquet",
+    "source_rows": 44640,
+    "finite_duration_rows": 44640,
+    "nonoverlap_windows": 2976,
+    "days": 31,
+    "first_window": "2025-10-28 00:00:00",
+    "last_window": "2025-12-06 23:45:00"
+  },
+  "train_simulations": 16000,
+  "training_target_mean": 0.26252702722085136,
+  "reference_groups": {
+    "train_hulls": 19,
+    "heldout_hulls": 9,
+    "background_control_clips": 4
+  },
+  "holdouts": [
+    {
+      "station": "acoustics/07_St_Francis.parquet",
+      "coverage": {
+        "member": "acoustics/07_St_Francis.parquet",
+        "source_rows": 169488,
+        "finite_duration_rows": 169487,
+        "nonoverlap_windows": 3371,
+        "days": 142,
+        "first_window": "2015-04-21 00:00:00",
+        "last_window": "2016-02-04 20:00:00"
+      },
+      "simulator_validation": {
+        "candidate": {
+          "rmse": 0.1720977847530108,
+          "mae": 0.13933312873362894,
+          "pred_mean": 0.3595968431647339
+        },
+        "energy_baseline": {
+          "rmse": 0.20632751525792573,
+          "mae": 0.1687280189399974,
+          "pred_mean": 0.1982974404170139
+        },
+        "constant_baseline": {
+          "rmse": 0.2327663304249178,
+          "mae": 0.2070457074997123,
+          "pred_mean": 0.2625270272208513
+        },
+        "gain_invariant_temporal_baseline": {
+          "rmse": 0.20712815737593687,
+          "mae": 0.16790218717927063,
+          "pred_mean": 0.17303944518739722
+        },
+        "relative_rmse_improvement": 0.16589997927385036,
+        "paired_day_hull_bootstrap_rmse_gain_95ci": [
+          0.01963063402018405,
+          0.04682431594330172
+        ]
+      },
+      "synthetic_no_added_reference": {
+        "count": 1258,
+        "candidate": {
+          "rmse": 0.19480712022646723,
+          "mae": 0.15649370932041795,
+          "pred_mean": 0.15649370932041795
+        },
+        "candidate_p90": 0.3219621901556711,
+        "best_baseline": {
+          "rmse": 0.17010395498017025,
+          "mae": 0.14595741457732614,
+          "pred_mean": 0.14595741457732614
+        }
+      },
+      "channel_envelope_stress": {
+        "rmse": 0.18215717332829673,
+        "mae": 0.1499555511748116,
+        "pred_mean": 0.36375364334589677
+      },
+      "real_window_controls": {
+        "original_pred_mean": 0.15255895923292206,
+        "original_pred_quantiles": [
+          0.017062171699483406,
+          0.14134248410317968,
+          0.3074008584623046
+        ],
+        "received_energy_spearman": -0.640038777310045,
+        "uniform_12db_gain_max_prediction_change": 0.0,
+        "independent_band_time_shuffle_mean_delta": -0.00014114500490583124,
+        "independent_band_time_shuffle_mean_abs_delta": 0.0028521575458974836,
+        "band_reversal_mean_delta": 0.3603558681463317,
+        "ais_background_reference_additions": {
+          "intended_added_energy_mean": 0.37470376642527786,
+          "pred_mean": 0.4750928431514423,
+          "all_reference_energy_rmse": 0.17340640882059152,
+          "meaning": "weak-label source audit, not a vessel-free ground-truth test"
+        }
+      },
+      "pilot_numeric_gate": false
+    },
+    {
+      "station": "acoustics/10_Sea_Point.parquet",
+      "coverage": {
+        "member": "acoustics/10_Sea_Point.parquet",
+        "source_rows": 3660,
+        "finite_duration_rows": 3660,
+        "nonoverlap_windows": 243,
+        "days": 3,
+        "first_window": "2018-10-11 10:01:00",
+        "last_window": "2018-10-13 23:45:00"
+      },
+      "simulator_validation": {
+        "candidate": {
+          "rmse": 0.08439784814018764,
+          "mae": 0.06177665343462698,
+          "pred_mean": 0.25664987567580133
+        },
+        "energy_baseline": {
+          "rmse": 0.19712199331365848,
+          "mae": 0.1639530535142042,
+          "pred_mean": 0.240544052742721
+        },
+        "constant_baseline": {
+          "rmse": 0.23242182578017706,
+          "mae": 0.20618790980666693,
+          "pred_mean": 0.2625270272208513
+        },
+        "gain_invariant_temporal_baseline": {
+          "rmse": 0.19677011708038544,
+          "mae": 0.16630420517339953,
+          "pred_mean": 0.25572067549461197
+        },
+        "relative_rmse_improvement": 0.5710840172661531,
+        "paired_day_hull_bootstrap_rmse_gain_95ci": [
+          0.1011264617868867,
+          0.12976904387297253
+        ]
+      },
+      "synthetic_no_added_reference": {
+        "count": 1190,
+        "candidate": {
+          "rmse": 0.04180810586127375,
+          "mae": 0.026788781369109324,
+          "pred_mean": 0.026788781369109324
+        },
+        "candidate_p90": 0.0691807435848361,
+        "best_baseline": {
+          "rmse": 0.22619264488155386,
+          "mae": 0.2078461485832435,
+          "pred_mean": 0.2078461485832435
+        }
+      },
+      "channel_envelope_stress": {
+        "rmse": 0.0972670815399798,
+        "mae": 0.06785815859967526,
+        "pred_mean": 0.24771461844996004
+      },
+      "real_window_controls": {
+        "original_pred_mean": 0.026072678985589424,
+        "original_pred_quantiles": [
+          0.0005894287068459365,
+          0.017883141009648336,
+          0.06442381458261988
+        ],
+        "received_energy_spearman": -0.5153845162207532,
+        "uniform_12db_gain_max_prediction_change": 0.0,
+        "independent_band_time_shuffle_mean_delta": 0.000993557602556803,
+        "independent_band_time_shuffle_mean_abs_delta": 0.0012387775992917943,
+        "band_reversal_mean_delta": 0.5697645587750805,
+        "ais_background_reference_additions": {
+          "intended_added_energy_mean": 0.3809721537783495,
+          "pred_mean": 0.3844338046464593,
+          "all_reference_energy_rmse": 0.09146416957128613,
+          "meaning": "weak-label source audit, not a vessel-free ground-truth test"
+        }
+      },
+      "pilot_numeric_gate": true
+    }
+  ],
+  "elapsed_seconds": 10.165915186997154,
+  "both_numeric_gates_pass": false
+}
